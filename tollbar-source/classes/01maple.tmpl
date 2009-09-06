@@ -1,0 +1,12 @@
+LOCATION=classes/maple.html
+PARENT=classes/index.html
+PAGENAME="Maple Class"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="img/maple.jpg" />
+		<h3>Work in Maple Class</h3>
+		<img src="classes/maple/nursery_rhymes.jpg" />
+		<img src="classes/maple/autumn.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

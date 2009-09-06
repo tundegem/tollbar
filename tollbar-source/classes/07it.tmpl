@@ -1,0 +1,11 @@
+LOCATION=classes/it.html
+PARENT=classes/index.html
+PAGENAME="IT Suite"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="classes/it/group.jpg" />
+		<img src="classes/it/closeup.jpg" />
+		<img src="classes/it/group2.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

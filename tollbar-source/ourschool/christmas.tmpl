@@ -1,0 +1,12 @@
+LOCATION=ourschool/christmas08.html
+PARENT=ourschool/index.html
+PAGENAME="Christmas 2008"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+    <div style="text-align:center;"><img src="ourschool/Christmas/PB130202.JPG" /></div>
+    <div style="text-align:center;"><img src="ourschool/Christmas/PB130204.JPG" /></div>
+    <div style="text-align:center;"><img src="ourschool/Christmas/PB130205.JPG" /></div>
+    <div style="text-align:center;"><img src="ourschool/Christmas/PB130206.JPG" /></div>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

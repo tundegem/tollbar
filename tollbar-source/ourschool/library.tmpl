@@ -1,0 +1,10 @@
+LOCATION=ourschool/library.html
+PARENT=ourschool/index.html
+PAGENAME="Library"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="ourschool/library1.jpg" />
+		<img src="ourschool/library2.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

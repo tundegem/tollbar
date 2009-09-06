@@ -1,0 +1,9 @@
+LOCATION=classes/chestnut.html
+PARENT=classes/index.html
+PAGENAME="Chestnut class"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="img/chestnut.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

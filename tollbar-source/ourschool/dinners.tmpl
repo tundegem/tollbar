@@ -1,0 +1,14 @@
+LOCATION=ourschool/dinners.html
+PARENT=ourschool/index.html
+PAGENAME="School Dinners"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<p>For information about our school dinners, please see the Doncaster Council <a href="http://www.doncaster.gov.uk/Learning_in_Doncaster/pupil_and_parent/School_Meals/School_Catering.asp">School Dinners page</a>.
+		<img src="img/school_dinners.jpg" />
+		<p>School dinners cost <strong>&pound;1.50</strong> per day, for a healthy, locally sourced meal. If paying by cheque, please make cheques payable to DMBC.</p>
+		<h3>Packed Lunches</h3>
+		<img src="img/packed_lunches.jpg" />
+		<p>For pupils who have packed lunches, they can eat in the community room.</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

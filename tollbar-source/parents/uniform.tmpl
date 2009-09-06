@@ -1,0 +1,17 @@
+LOCATION=parents/schooluniform.html
+PARENT=parents/index.html
+PAGENAME="School Uniform"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<p>Sweatshirts, polo shirts, cardigans and fleeces with the school logo on can now be purchased from Cliffs on Printing Office Street in Doncaster Town Centre.</p>
+		<ul>
+		    <li>Polo shirts: &pound;6.50</li>
+		    <li>Cardigans: &pound;9.00/&pound;10.00</li>
+		    <li>Sweatshirts: &pound;6.50/&pound;7.50</li>
+		    <li>Fleeces: &pound;11.99</li>
+		</ul>
+		<img src="img/uniform1.jpg" />
+		<img src="img/uniform2.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

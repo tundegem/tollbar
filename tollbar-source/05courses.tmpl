@@ -1,0 +1,61 @@
+LOCATION=parents/courses.html
+PARENT=ROOT
+PAGENAME="Extended Schools"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <h3>Learning Gateway</h3>
+        <p>We are pleased to inform you that Mrs Bleything and Mrs Brooks can help you find the education you are seeking.</p>
+        <p>Just pop into school and enquire about a course you are interested in and we will try and find you a course that is right for you.</p>
+        <p>Both Mrs Bleything and Mrs Brooks can source all kinds of courses from computing to cooking, from flower arranging to gardening.</p>
+        <div style="text-align:center;"><img src="img/gateways.jpg" /></div>
+        
+        <h3>Story Sacks</h3>
+        <p>This is a family learning course designed especially for parents with children under the age of 8.</p>
+        <p>Enjoy making a story sack for a book of your choice.</p>
+        <p>Children will be able to join adults during the sessions.</p>
+        <p>Story Sacks begins in school on Tuesday 24th  February for 5 weeks 9-11.30AM.</p>
+        <p><a href="parents/STORYSACKS.pdf">Download form.</a></p>
+
+        <h3>Salsa Dancing (Adult Class)</h3>
+        <p>Learn to dance &amp; have fun!</p>
+        <p>No partner required; bring trainers.</p>
+        <p>With experienced salsa teacher Julia Marshall.</p>
+        <p>Starting Wednesday 25th March 2009 &mdash; 3-4pm Toll Bar Primary School Hall, only £2.</p>
+        <p><a href="parents/salsa.pdf">Download form.</a></p>
+        
+        <h3>Healthy, Delicious Desserts</h3>
+        <p>3 week taster course run by a trained chef</p>
+        <p>Venue: Toll Bar Primary Community Room</p>
+        <p>Time: 7 - 8.30 pm</p>
+        <p>Every Monday for 4 weeks</p>
+        <p>Starts: 26th January</p>
+        <p>Run by <em>Taste</em> - a group of professional chefs. <em>Taste</em> will demonstrate how to create healthy but delicious desserts. Please let the office know if you are interested.</p>
+        <p><a href="parents/healthydeliciousdesserts.pdf">Download form.</a></p>
+        
+        <h3>Get IT Together</h3>
+        <p>New computer course</p>
+        <p>Every Wednesday during term time</p>
+        <p>1.00 pm - 4.00 pm.</p>
+        <p>Friendly helpful tutor</p>
+        <p>No computer experience necessary</p>
+        <p><a href="parents/ITSkills.pdf">Download form.</a></p>
+        
+        <h3>Looking Good and Feeling Great</h3>
+        <p>Weight management, Healthy Eating, Gentle exercise and Pamper session on week 5</p>
+        <p>Venue: Toll Bar Primary Community Room</p>
+        <p>Time: 9.30 - 11.30am</p>
+        <p>Every Tuesday</p>
+        <p>Come along and have fun. Refreshments available and the sessions are FREE.</p>
+        <p><a href="parents/lookinggoodandfeelinggreat.pdf">Download form.</a></p>
+        
+        <h3>Sure Start Parent &amp; Toddler Group</h3>
+        <p>At: Toll Bar Primary School</p>
+        <p>In: Community Room</p>
+        <p>Time: 1.00 - 3.00pm</p>
+        <p>Every Thursday</p>
+        <p>Refreshments available</p>  
+        <p><a href="parents/surestart.pdf">Download form.</a></p>
+
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

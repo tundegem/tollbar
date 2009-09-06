@@ -1,0 +1,9 @@
+LOCATION=foo/bar.html
+PARENT=ROOT
+PAGENAME="Page Name"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		Content goes here
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

@@ -1,0 +1,96 @@
+LOCATION=ourschool/afterschoolclub.html
+PARENT=ROOT
+PAGENAME="After School Clubs"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<p>The following after school clubs will be starting Monday 15th September 2008.</p>
+        <p>Should you wish your child to take part, please sign in the appropriate form and return to school as soon as possible. (There are only limited places in all clubs.)</p>
+        <p>All clubs are held after school from 3.00 pm to 4.00 pm.</p>
+        <table border="1" cellspacing="0" cellpadding="0">
+  <thead>
+	  <tr>
+		<th>Day</th>
+		<th>Club</th>
+		<th>Organised by</th>
+		<th>Year</th>
+		<th>Times (if different)</th>
+	  </tr>
+  </thead>
+  <tbody>
+	  <tr>
+		<td>Monday</td>
+		<td>KS1 Streetdance</td>
+		<td>Active Doncaster</td>
+		<td>All</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Monday</td>
+		<td>KS2 Circuit training</td>
+		<td>Mrs Blyething, Mrs Brocklesby</td>
+		<td>Yrs 3,4,5,6,</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Tuesday</td>
+		<td>KS2 Computing</td>
+		<td>Mrs Bleything</td>
+		<td>Yrs 3,4,5,6</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Tuesday</td>
+		<td>KS2 Cooking (50 pence and a contanier for baking)</td>
+		<td>Mrs Clarke &amp; Mrs Didcott</td>
+		<td>Limited<br />
+		  8</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Wednesday</td>
+		<td>Pop / Rock Singing Group</td>
+		<td>&nbsp;</td>
+		<td>Yr 3,4,5</td>
+		<td>3.00-3.30 pm</td>
+	  </tr>
+	  <tr>
+		<td>Wednesday</td>
+		<td>Film Club</td>
+		<td>Mrs Crosby</td>
+		<td>Yr 3,4,5,6</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Thursday</td>
+		<td>Year 6 Booster Class (<a href="parents/BOOSTER.pdf">Download form</a>)</td>
+		<td>Mrs Melling</td>
+		<td>Year 6</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Thursday</td>
+		<td>Art &amp; Craft</td>
+		<td>Miss Shelton &amp; Miss Dixon</td>
+		<td>All</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td>Friday</td>
+		<td>Lending Library</td>
+		<td>Miss Mellor</td>
+		<td>All </td>
+		<td>3.00-3.30pm</td>
+	  </tr>
+	  <tr>
+		<td>Friday</td>
+		<td>KS2 Football</td>
+		<td>Yrs 3,4,5,6</td>
+		<td>All </td>
+		<td>&nbsp;</td>
+	  </tr>
+  </tbody>
+</table>
+<p><a href="ourschool/afterschoolclubform.pdf">Download form.</a></p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

@@ -1,0 +1,67 @@
+LOCATION=index.html
+PAGENAME=Home
+PARENT=ROOT
+H1OVERRIDE="Welcome to Toll Bar Primary School's Website"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<p style="text-align:center;"><a href="newsletters/200905.pdf">Click to read to May 2009 newsletter</a></p>
+		<div style="width:100%">
+			<div style="width: 48%;float:left;">
+			    <h2>January</h2>
+                <ul>
+                    <li>23rd 2pm Celebration Assembly, African Arts - please come and join us.</li>
+                    <li>26th Willow visit to the National Mining Museum</li>
+                    <li>26th Healthy Delicious Desserts 7pm-8.30pm</li>
+                    <li>29th Multi sports festival at Dearne Valley Leisure Centre</li>
+                    <li>30th Sports Hall Athletics at Adwick Leisure Centre</li>
+                </ul>
+                <h2>February</h2>
+                <ul>
+                    <li>3rd Looking Good Feeling Great starts again</li>
+                    <li>13th-Training Day</li>
+                    <li>16th–20th - Half term</li>
+                    <li>24th - 9.30-11.30 Making Story Sacks</li>
+                </ul>
+                <h2>March</h2>
+                <ul>
+                    <li>3rd Sycamore visit to Potteric Carr</li>
+                    <li>4th Maple Class visit to Austerfield</li>
+                    <li>4th-6th Castleton residential</li>
+                    <li>9th Science Week</li>
+                    <li>18th Y6 visit to Magna and Crucial Crew</li>
+                    <li>18th Oak and Y5 visit to Magna</li>
+                    <li>24th-25th Parents Evening</li>
+                    <li>24th Book week</li>
+                </ul>
+			</div>
+			<div style="width: 48%;float:right;">
+                <h2>April</h2>
+                <ul>
+                    <li>6th-17th Easter Holidays</li>
+                    <li>22nd Y6 Austerfield SATs revision</li>
+                </ul>
+                <h2>May</h2>
+                <ul>
+                    <li>11th-15th Y6 SATs Week: Please do not book any holidays for this week.</li>
+                    <li>25th-29th Half Term</li>
+                </ul>
+                <h2>June</h2>
+                <ul>
+                    <li>10th Year 6 Parents Evening at Don Valley</li>
+                    <li>13th-15th Austerfield camp</li>
+                    <li>19th Training Day</li>
+                    <li>29th-3rd July Hatfield residential</li>
+                </ul>
+			</div>
+			<br style="clear:both;" />
+		</div>
+		<div style="text-align:center;"><img src="img/welcome.jpg" alt="Welcome to Toll Bar Primary!" /></div>
+		<img src="img/head.jpg" class="right" />
+		<h2>Message from Mrs Northwood</h2>
+        <p><strong>Welcome to our School</strong></p>
+        <p>In Toll Bar we believe we are a 'Community Primary' school and we intend these pages to reflect some of the things that happen in and around our school with the help of the community that we serve ...... plus all sorts of other interesting bits and pieces!</p>
+        <p>We believe Toll Bar Primary School to be a safe, caring environment, where in partnership with you we can try to achieve your child's full potential.</p>
+        <p>Our aim in the school is to educate the whole child, and through the curriculum will provide for the learning of skills and knowledge, a child should be given every opportunity to realise their aspirations and express their feelings. The whole curriculum conforms to the requirements of the National Curriculum. We are committed to safeguarding children and promote the welfare of every child in our school. Children respond to the interest and appreciation which we both show in their education, and I hope that our time together will be enjoyable, valued and successful.</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

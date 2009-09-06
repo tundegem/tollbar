@@ -1,0 +1,15 @@
+LOCATION=ourschool/playground.html
+PARENT=ourschool/index.html
+PAGENAME="Playground"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="ourschool/tyres.jpg" />
+		<img src="ourschool/skippingrope.jpg" />
+		<img src="ourschool/moretyres.jpg" />
+		<img src="ourschool/foundation1.jpg" />
+		<img src="ourschool/foundation2.jpg" />
+		<img src="ourschool/howdoyoufeel.jpg" />
+		<img src="ourschool/buddybench.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

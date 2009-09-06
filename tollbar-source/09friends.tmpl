@@ -1,0 +1,23 @@
+LOCATION=friends.html
+PARENT=ROOT
+PAGENAME="Friends of Toll Bar"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<h3>Current Members</h3>
+		<ul>
+		    <li>Lynn Wood</li>
+		    <li>Shirley Wilburn</li>
+		    <li>Kath Cooper</li>
+		    <li>Sarah Brocklesby</li>
+		    <li>Anne Newton</li>
+		    <li>Teresa Hickman</li>
+		    <li>Kate Midgley</li>
+		    <li>Janet Rodwell</li>
+		    <li>Lisa Bleything</li>
+		    <li>Wendy Baker</li>
+		    <li>Jo Mellor</li>
+		    <li>June Crosby</li>
+		</ul>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

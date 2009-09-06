@@ -1,0 +1,26 @@
+LOCATION=parents/onlinesafety.html
+PARENT=parents/index.html
+PAGENAME="Online Safety"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+    <p>Our children are surrounded by connected devices that allow access to email, Internet, SMS and much more. These are fabulous technologies. They can also present dangers. We teach pupils about safe practice on the Internet, with emails, using mobile phones as part of our curriculum. Children have a module in E-Safety annually, we also use assemblies to embed our safety messages. Effective communication with parents is key. We use filtering systems in school that are kite marked for safety - but no system can guarantee 100% protection. Safe practice is equally, if not even more, essential. All computers are sited in publicly accessible areas. Filtering systems are used. All messageboards are moderated. Children are made aware that emails can (and are) viewed by staff and that action will be taken if use of these technologies is abused.</p>
+    <p>A new study has revealed that over half of parents could not name the person their child chats to most on the internet.</p>
+    <p>The 'Virtual Parenting Report' was commissioned to mark the launch of <a href="http://www.yoursphere.co.uk">www.yoursphere.co.uk</a>, a new social network site only available to young people under the age of 18. It reveals a major disparity between the safety standards that parents typically teach in the real world and those that they allow online.</p>
+    <p>While 95 per cent of parents polled said they would not want their child speaking to strangers, a total of 62 per cent said that they were unaware of their online contacts. Only a third admitted they were really vigilant when it came to their child's internet safety.</p>
+    <p>In addition, 50 per cent are unaware what photos or other pieces of personal information have been posted on the web while 28 per cent of parents do not supervise their child's online behaviour at all.</p>
+    <p>As well as highlighting the dangers, the findings of the report aim to persuade parents to keep a closer watch on online activity.</p>
+    <p>For further information about e-safety visit:</p>
+    <ul>
+        <li><a href="http://www.kidsmart.org.uk/beingsmart">www.kidsmart.org.uk/beingsmart</a></li>
+        <li><a href="http://www.chatdanger.com">www.chatdanger.com</a></li>
+        <li><a href="http://www.getsafeonline.org/">http://www.getsafeonline.org/</a></li>
+        <li><a href="http://www.sgfl.org.uk/E-safety/responsibilities/parents">http://www.sgfl.org.uk/E-safety/responsibilities/parents</a></li>
+        <li><a href="http://www.northerngrid.org/ngflwebsite/esafety_server/parents.html">http://www.northerngrid.org/ngflwebsite/esafety_server/parents.html</a></li>
+    </ul>
+    <p>To become more familiar with internet slang terms visit:</p>
+    <ul>
+        <li><a href="http://www.parentscentre.gov.uk/usingcomputersandtheinternet/chationary">www.parentscentre.gov.uk/usingcomputersandtheinternet/chationary</a></li>
+    </ul>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

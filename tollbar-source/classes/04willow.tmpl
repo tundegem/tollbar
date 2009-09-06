@@ -1,0 +1,11 @@
+LOCATION=classes/willow.html
+PARENT=classes/index.html
+PAGENAME="Willow Class"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <img src="img/willow.jpg" alt="Willow Class" />
+		<img src="classes/willow/class.jpg" />
+		<img src="classes/willow/displays.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

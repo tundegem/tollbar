@@ -1,0 +1,11 @@
+LOCATION=classes/cedar.html
+PARENT=classes/index.html
+PAGENAME="Cedar Class"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="img/cedar.jpg" />
+		<img src="classes/cedar/helpfulwords.jpg" />
+		<img src="classes/cedar/SEAL.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

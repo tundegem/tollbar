@@ -1,0 +1,11 @@
+LOCATION=ourschool/index.html
+PARENT=ROOT
+PAGENAME="Our School"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <p>Please use the links on the right to navigate the 'Our School' section of the site!</p>
+		<img src="ourschool/ourschool.jpg" />
+		<img src="ourschool/band.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

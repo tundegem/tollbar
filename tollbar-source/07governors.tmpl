@@ -1,0 +1,39 @@
+LOCATION=governors.html
+PARENT=ROOT
+PAGENAME="Governors"
+EXTRAHEADER=""
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <h3>COMMUNITY</h3>
+            <ul>
+                <li>Mr J Robinson (Chairman)</li>
+                <li>Mr J Jackson (Vice-Chair)</li>
+                <li>Mrs P Sutton</li>
+                <li>Mrs C Walker</li>
+                <li>Mrs S Wilburn</li>
+                <li>Mr J Parks</li>
+            </ul>
+        <h3>PARENT</h3>
+		    <ul>
+                <li>Ms J Mellor</li>
+                <li>Mrs T Smyth</li>
+                <li>Mr A Thompson</li>
+                <li>Mrs J Crosby</li>
+                <li>Miss T Hickman</li>
+                <li>Mrs K Midgely</li>
+            </ul>
+        <h3>STAFF</h3>
+            <ul>
+                <li>Mrs J Northwood</li>
+                <li>Mrs S Clarke</li>
+                <li>Mrs C Davies</li>
+                <li>Mr A Draper</li>
+            </ul>
+        <h3>ASSOCIATE</h3>
+            <ul>
+                <li>Mrs A Newton</li>
+            </ul>
+
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

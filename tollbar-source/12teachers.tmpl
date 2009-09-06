@@ -1,0 +1,28 @@
+LOCATION=teaching.html
+PARENT=ROOT
+PAGENAME="Teaching Resources"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+<h2>Teaching Resources</h2>
+<p>Please find links below that we've found useful. Please note that we can not be held responsible for content of external sites.</p>
+<h3>Video</h3>
+<ul>
+	<li><a href="http://www.bbc.co.uk/learningzone/clips/">BBC Learning Zone</a></li>
+	<li><a href="http://gallery.nen.gov.uk/">NEN Gallery</a></li>
+	<li><a href="http://gallery.nen.gov.uk/index.php?gal_type=audio">National Audio Network</a></li>
+	<li><a href="http://www.learningcurve.gov.uk/">National Archives</a></li>
+	<li><a href="http://www.arkive.org/">Arkive</a></li>
+	<li><a href="http://www.wildfilmhistory.org/">Wild Film History</a></li>
+	<li><a href="http://www.bbcmotiongallery.com/Customer/index.aspx">BBC Motion Gallery - Home Page</a></li>
+	<li><a href="British Pathe">British Pathe Limited</a></li>
+	<li><a href="http://www.nationalarchives.gov.uk/films/default.htm?source=films_1">The National Archives Public Information Films</a></li>
+</ul>
+<h3>Downloads</h3>
+<ul>
+	<li><a href="http://www2.smarttech.com/st/en-US/Support/Downloads/SBS/SBSv95Win.htm">SMART Notebook</a></li>
+	<li><a href="http://dl.google.com/earth/GoogleEarth.exe">Google Earth</a></li>
+	<li><a href="http://www.bbc.co.uk/cbbc/bamzooki/">Bamzooki</a></li>
+</ul>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

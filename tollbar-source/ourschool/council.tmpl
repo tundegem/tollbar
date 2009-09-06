@@ -1,0 +1,10 @@
+LOCATION=ourschool/schoolcouncil.html
+PARENT=ourschool/index.html
+PAGENAME="School Council"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<p>The school council is made up of 2 reps from each class, and they are involved in decisions made in school, such as the Healthy Schools campaign, the canteen, questionnaires for parents and children, and the environmental garden.</p>
+		<img src="img/council.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

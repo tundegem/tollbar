@@ -1,0 +1,61 @@
+LOCATION=staff.html
+PARENT=ROOT
+PAGENAME="Staff"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <h3>Headteacher:</h3>
+            <ul>
+                <li>Mrs J Northwood</li>
+            </ul>
+        <h3>Deputy Headteacher:</h3>
+            <ul>
+                <li>Mrs S Clarke</li>
+            </ul>
+        <h3>Teaching Staff:</h3>
+            <ul>
+                <li>Mrs C Davies</li>
+                <li>Mrs K Dockerty</li>
+                <li>Mrs A Melling</li>
+                <li>Miss S Shelton</li>
+                <li>Miss Y Whaley</li>
+            </ul>
+        <h3>Teaching Assistants:</h3>
+            <ul>
+                <li>Mrs W Baker</li>
+                <li>Mrs L Bleything</li>
+                <li>Mrs W Brooks</li>
+                <li>Mr D Cross</li>
+                <li>Mrs C Didcott</li>
+                <li>Mrs A Robinson</li>
+                <li>Mrs A Shakespeare</li>
+            </ul>
+        <h3>Nursery Nurses:</h3>
+            <ul>
+                <li>Mrs. C. Armistead</li>
+                <li>Miss. E. Dixon</li>
+            </ul>
+        <h3>Office Manager:</h3>
+            <ul>
+                <li>Mrs A. Newton</li>
+            </ul>
+        <h3>Admin Assistants:</h3>
+            <ul>
+                <li>Mrs L Wood</li>
+                <li>Mrs S Brocklesby</li>
+            </ul>
+        <h3>Caretaker:</h3>
+            <ul>
+                <li>Mr A Draper</li>
+            </ul>
+        <h3>Cook:</h3>
+            <ul>
+                <li>Miss A Jones</li>
+            </ul>
+        <h3>Crossing Patrol:</h3>
+            <ul>
+                <li>Mrs T Howard</li>
+            </ul>
+
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

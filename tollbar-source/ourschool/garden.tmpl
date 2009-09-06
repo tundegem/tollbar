@@ -1,0 +1,13 @@
+LOCATION=ourschool/garden.html
+PARENT=ourschool/index.html
+PAGENAME="Environmental Garden"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<img src="ourschool/garden.jpg" />
+		<p>With thanks to the rotary club, we are now getting a new environmental garden, that is currently under construction.</p>
+		<h3>Under Construction Photos</h3>
+		<img src="ourschool/gardenconstruction1.jpg" />
+		<img src="ourschool/gardenconstruction2.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

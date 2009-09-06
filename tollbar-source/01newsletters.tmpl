@@ -1,0 +1,15 @@
+LOCATION=newsletters/index.html
+PARENT=ROOT
+PAGENAME="Newsletter Archive"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<ul>
+		    <li><a href="newsletters/200905.pdf">May 2009</a></li>
+		    <li><a href="newsletters/200903.pdf">March 2009</a></li>
+		    <li><a href="newsletters/200901.pdf">January 2009</a></li>
+		    <li><a href="newsletters/200811.pdf">November 2008</a></li>
+		    <li><a href="newsletters/200809.pdf">September 2008</a></li>
+		</ul>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP

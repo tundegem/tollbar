@@ -1,0 +1,232 @@
+LOCATION=trips/index.html
+PARENT=ROOT
+PAGENAME="School Trips"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <h3>Trips This Year</h3>
+        <table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><p align="center"><strong>Date</strong></p></td>
+    <td valign="top"><p align="center"><strong>Visit</strong></p></td>
+    <td valign="top"><p align="center"><strong>Class</strong></p></td>
+    <td valign="top"><p align="center"><strong>Curriculum</strong></p></td>
+    <td valign="top"><p align="center"><strong>Group leader</strong></p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>29/09/08</p></td>
+    <td valign="top"><p>Eden    Camp</p></td>
+    <td valign="top"><p>Chestnut</p></td>
+    <td valign="top"><p>History</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>29/09/08</p></td>
+    <td valign="top"><p>Don Valley CLC</p></td>
+    <td valign="top"><p>Willow</p></td>
+    <td valign="top"><p>I.C.T</p></td>
+    <td valign="top"><p>Miss Whaley</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>10/10/08</p></td>
+    <td valign="top"><p>Civic Theatre</p></td>
+    <td valign="top"><p>Chestnut</p></td>
+    <td valign="top"><p>Book Awards</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>22/10/08</p></td>
+    <td valign="top"><p>Walk to Pony Paddock</p></td>
+    <td valign="top"><p>Maple</p></td>
+    <td valign="top"><p>Loacal area</p></td>
+    <td valign="top"><p>Mrs Davies</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>23/10/08</p></td>
+    <td valign="top"><p>Keepmoat Stadium</p></td>
+    <td valign="top"><p>Chestnut</p></td>
+    <td valign="top"><p>Anti Racism event</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>04/11/08</p></td>
+    <td valign="top"><p>Keepmoat Stadium</p></td>
+    <td valign="top"><p>Yr 6 (6wks)</p></td>
+    <td valign="top"><p>Study Support</p></td>
+    <td valign="top"><p>Centre escort</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>06/11/08</p></td>
+    <td valign="top"><p>Eureka!</p></td>
+    <td valign="top"><p>Oak &amp; Sycamore</p></td>
+    <td valign="top"><p>Science</p></td>
+    <td valign="top"><p>Mrs Dockerty</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>12/11/08</p></td>
+    <td valign="top"><p>Tropical World</p></td>
+    <td valign="top"><p>Willow</p></td>
+    <td valign="top"><p>Science</p></td>
+    <td valign="top"><p>Miss Whaley</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>14/11/08</p></td>
+    <td valign="top"><p>Doncaster Race Course </p></td>
+    <td valign="top"><p>Yr 5/6</p></td>
+    <td valign="top"><p>Playground leaders course</p></td>
+    <td valign="top"><p>Mr Cross</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>26/11/08</p></td>
+    <td valign="top"><p>Sundown Adventure</p></td>
+    <td valign="top"><p>Maple</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Davies</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>12/12/08</p></td>
+    <td valign="top"><p>Frenchgate Centre</p></td>
+    <td valign="top"><p>KS2 children</p></td>
+    <td valign="top"><p>Fund raising</p></td>
+    <td valign="top"><p>Mrs Northwood</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>15/12/08</p></td>
+    <td valign="top"><p>Sheffield Lyceum</p></td>
+    <td valign="top"><p>All&nbsp; school</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Northwood</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>17/12/08</p></td>
+    <td valign="top"><p>Walk to church</p></td>
+    <td valign="top"><p>All School</p></td>
+    <td valign="top"><p>R.E</p></td>
+    <td valign="top"><p>Mrs Northwood</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>&nbsp;</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Jan/Feb</p></td>
+    <td valign="top"><p>Potteric Carr</p></td>
+    <td valign="top"><p>Sycamore</p></td>
+    <td valign="top"><p>Geography</p></td>
+    <td valign="top"><p>Miss Shelton</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>26/01/2009</p></td>
+    <td valign="top"><p>National Mining Museum</p></td>
+    <td valign="top"><p>Willow</p></td>
+    <td valign="top"><p>History</p></td>
+    <td valign="top"><p>Miss Whaley</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>04/03/2009</p></td>
+    <td valign="top"><p>Austerfield</p></td>
+    <td valign="top"><p>Maple</p></td>
+    <td valign="top"><p>Science</p></td>
+    <td valign="top"><p>Mrs Davies</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>04/03/09 06/03/09</p></td>
+    <td valign="top"><p>Castleton (Residential)</p></td>
+    <td valign="top"><p>Willow</p></td>
+    <td valign="top"><p>Geography</p></td>
+    <td valign="top"><p>Miss Whaley</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>18/03/2009</p></td>
+    <td valign="top"><p>Magna Crucial Crew</p></td>
+    <td valign="top"><p>Yr 6</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>18/03/2009</p></td>
+    <td valign="top"><p>Magna </p></td>
+    <td valign="top"><p>Oak/Year 5</p></td>
+    <td valign="top"><p>Science</p></td>
+    <td valign="top"><p>Mrs Dockerty</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>22/04/2009</p></td>
+    <td valign="top"><p>Austerfield Revision</p></td>
+    <td valign="top"><p>Yr 6</p></td>
+    <td valign="top"><p>S.A.T.S Revision</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Apr/May</p></td>
+    <td valign="top"><p>Leicester Space Centre</p></td>
+    <td valign="top"><p>Chestnut</p></td>
+    <td valign="top"><p>Science</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Apr/May</p></td>
+    <td valign="top"><p>Walk on Pit Tip</p></td>
+    <td valign="top"><p>Oak</p></td>
+    <td valign="top"><p>Geography</p></td>
+    <td valign="top"><p>Mrs Dockerty</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>14/06/08</p></td>
+    <td valign="top"><p>Austerfield Camp</p></td>
+    <td valign="top"><p>Oak + Willow</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Clarke</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>30/06/08</p></td>
+    <td valign="top"><p>Hatfield Residential</p></td>
+    <td valign="top"><p>Chestnut</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Melling</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Jun/July</p></td>
+    <td valign="top"><p>Sherwood </p></td>
+    <td valign="top"><p>Sycamore</p></td>
+    <td valign="top"><p>History</p></td>
+    <td valign="top"><p>Miss Shelton</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Jun/July</p></td>
+    <td valign="top"><p>Hull Museum</p></td>
+    <td valign="top"><p>Oak</p></td>
+    <td valign="top"><p>History</p></td>
+    <td valign="top"><p>Mrs Dockerty</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Jun/July</p></td>
+    <td valign="top"><p>Bradford Museum</p></td>
+    <td valign="top"><p>Willow</p></td>
+    <td valign="top"><p>History</p></td>
+    <td valign="top"><p>Miss Whaley</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>Jun/July</p></td>
+    <td valign="top"><p>White Post Farm/The Deep</p></td>
+    <td valign="top"><p>Maple</p></td>
+    <td valign="top"><p>PSHE</p></td>
+    <td valign="top"><p>Mrs Davies</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>July</p></td>
+    <td valign="top"><p>Pleasure Island</p></td>
+    <td valign="top"><p>Yr6 leavers</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+    <td valign="top"><p>&nbsp;</p></td>
+  </tr>
+</table>
+		<h3>Austerfield Community Camp</h3>
+		<img src="trips/austerfield/austerfield.jpg" />
+		<h3>Hatfield Water Park</h3>
+		<img src="trips/hatfield/hatfield.jpg" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
