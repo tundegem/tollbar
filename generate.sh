@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUTDIR=/home/chris/public_html/tollbar
+OUTPUTDIR=/home/chris/tb/tollbar-clean
 SOURCEDIR=/home/chris/tb/tollbar-source
 BASEHREF=http://www.tollbar.doncaster.sch.uk/
 MAP=`mktemp`
