@@ -39,6 +39,7 @@ $EXTRAHEADER
 		<ul class="avmenu">
 `./sitemap.tcl $MAP $LOCATION`
 		</ul>
+        <img src="img/butterfly.png" alt="" />
 	</div>
 
 	<div id="contentwide2">
