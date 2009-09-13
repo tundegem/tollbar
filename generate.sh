@@ -1,7 +1,7 @@
 #!/bin/bash
 
-OUTPUTDIR=/home/chris/tb/tollbar-clean
-SOURCEDIR=/home/chris/tb/tollbar-source
+OUTPUTDIR=/home/chris/buildbot/tollbar/build/tollbar-clean
+SOURCEDIR=/home/chris/buildbot/tollbar/build/tollbar-source
 BASEHREF=http://www.tollbar.doncaster.sch.uk/
 MAP=`mktemp`
 
