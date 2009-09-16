@@ -1,8 +1,8 @@
 #!/bin/bash
 
-OUTPUTDIR=/home/chris/buildbot/tollbar/build/tollbar-clean
-SOURCEDIR=/home/chris/buildbot/tollbar/build/tollbar-source
-BASEHREF=http://www.tollbar.doncaster.sch.uk/
+OUTPUTDIR=$2
+SOURCEDIR=$1
+BASEHREF=$3
 MAP=`mktemp`
 
 for file in `find $SOURCEDIR -name \*.tmpl|sort` ; do
