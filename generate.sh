@@ -55,7 +55,7 @@ $CONTENT
 	</div>
 	
 	<div id="footer">
-		<p><a href="http://www.ofsted.gov.uk/"><img src="img/ofsted.gif" alt="Ofsted" /></a> <img src="img/healthy_schools.jpg" alt="Healthy School" /> <img src="img/basicskillslogo.jpg" alt="Quality Mark 2" /> <img src="img/kitemarks_active.jpg" alt="Activemark 2008" /><img src="img/bsa.jpg" alt="Basic Skills Agency" /><img src="img/lg.jpg" alt="Learning gateways" /></p>
+		<p><a href="http://www.ofsted.gov.uk/"><img src="img/ofsted.gif" alt="Ofsted" /></a> <img src="img/healthy_schools.jpg" alt="Healthy School" /> <img src="img/basicskillslogo.jpg" alt="Quality Mark 2" /> <img src="img/kitemarks_active.jpg" alt="Activemark 2008" /><img src="img/bsa.jpg" alt="Basic Skills Agency" /><img src="img/lg.jpg" alt="Learning gateways" /><a href="http://www.sustrans.org.uk/what-we-do/bike-it"><img src="img/bikeit.jpg" alt="We're a Sustrans Bike It school!" /></a></p>
 		<p><span>&copy; 2008, 2009 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
 		<a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
 	</div>
