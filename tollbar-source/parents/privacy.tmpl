@@ -1,0 +1,33 @@
+LOCATION=parents/privacy.html
+PARENT=parents/index.html
+PAGENAME="Privacy Notice"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+        <p>We at Toll Bar Primary School are the Data Controller for the purposes of the Data Protection Act. We collect information from you, and may receive information about you from your previous school.  We hold this personal data and use it to:</p>
+        <ul>
+		<li>support your teaching and learning;</li>
+		<li>monitor and report on your progress;</li>
+		<li>provide appropriate pastoral care, and</li>
+		<li>assess how well your school is doing.</li>
+        </ul>
+        <p>This information includes your contact details, national curriculum assessment results, attendance information A, characteristics such as ethnic group, special educational needs and any relevant medical information.</p>
+        <p>We will not give information about you to anyone outside the school without your consent unless the law and our rules permit it.</p>
+        <p>We are required by law to pass some of your information to the Local Authority (LA), and the Department for Children, Schools and Families (DCSF).</p>
+        <p>If you want to see a copy of the information we hold and share about you then please contact the school office.</p>
+        <p>If you require more information about how the LA and/or DCSF store and use this data please go to the following websites:</p>
+        <p><a href="http://dmbcintranet2:8082/Intranet/Learning/Teacher_and_School/SIDS/sims_support/Data_Protection_and_Fair_Processing_Information.asp">http://dmbcintranet2:8082/Intranet/Learning/Teacher_and_School/SIDS/sims_support/Data_Protection_and_Fair_Processing_Information.asp</a></p>
+        <p><a href="http://www.teachernet.gov.uk/_doc/13856/DCSF%20what%20we%20do%20with%20Children's%20data%20v4%20final.doc">http://www.teachernet.gov.uk/_doc/13856/DCSF%20what%20we%20do%20with%20Children's%20data%20v4%20final.doc</a></p>
+        <p>If you are unable to access these websites, please contact the LA or the DCSF as follows:</p>
+        <p>School Information & Data Services – 01302 737802</p>
+        <p>Public Communications Unit<br>
+Department for Children, Schools and Families<br>
+Sanctuary Buildings<br>
+Great Smith Street<br>
+London<br>
+SW1P 3BT<br>
+website: <a href="http://www.dcsf.gov.uk/">www.dcsf.gov.uk</a><br>
+email:  <a href="mailto:info@dcsf.gsi.gov.uk">info@dcsf.gsi.gov.uk</a><br>  
+tel:  0870 000 2288.</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
