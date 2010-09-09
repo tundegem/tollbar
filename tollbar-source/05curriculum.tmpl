@@ -1,0 +1,19 @@
+LOCATION=curriculum/index.html
+PARENT=ROOT
+PAGENAME="Curriculum"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+		<h3>Topics children will be covering this term</h3>
+		<img src="curriculum/traditionalstories.jpg" alt="" style="float:right;" />
+		<p><strong>Maple</strong>: Traditional Stories</p>
+		<img src="curriculum/fairyland.jpg" alt="" style="float:right;" />
+		<p><strong>Sycamore</strong>: Fairy Land</p>
+		<img src="curriculum/aroundtheworld.jpg" alt="" style="float:right;" />
+		<p><strong>Oak</strong>: Around the World in 80 Days</p>
+		<img src="curriculum/journeyintotheunknown.jpg" alt="" style="float:right;" />
+		<p><strong>Willow</strong>: Journey into the unknown</p>
+		<img src="curriculum/wearenotamused.jpg" alt="" style="float:right;" />
+		<p><strong>Chestnut</strong>: We are not amused</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
