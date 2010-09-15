@@ -3,6 +3,7 @@ PARENT=ROOT
 PAGENAME="Curriculum"
 xTEMP=`mktemp`
 cat >$xTEMP <<EOF
+<div>
 		<h3>Topics children will be covering this term</h3>
 		<img src="curriculum/traditionalstories.jpg" alt="" style="float:right;" />
 		<p><strong>Maple</strong>: Traditional Stories</p>
@@ -19,6 +20,7 @@ cat >$xTEMP <<EOF
 		<img src="curriculum/wearenotamused.jpg" alt="" style="float:right;" />
 		<p><strong>Chestnut</strong>: We are not amused</p>
 		<br style="clear:both;">
+</div>
 EOF
 CONTENT=`cat $xTEMP`
 rm $xTEMP
