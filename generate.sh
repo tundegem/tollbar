@@ -61,9 +61,12 @@ $CONTENT
                 <img src="img/kitemarks_active.jpg" alt="Activemark 2008" />
                 <img src="img/bsa.jpg" alt="Basic Skills Agency" />
                 <img src="img/lg.jpg" alt="Learning gateways" />
+                <img src="img/napta.jpg" alt="National Association of Professional Teaching Assistants" />
+                <img src="img/fmsis.jpg" alt="Financial Management Standards in Schools" />
                 <br /><a href="http://www.sustrans.org.uk/what-we-do/bike-it"><img src="img/bikeit.jpg" alt="We're a Sustrans Bike It school!" /></a>
                 <img src="img/creativepartnerships.jpg" alt="Creative Partnerships" />
-                <img src="img/sysport.jpg" alt="South Yorkshire Sport" />
+                <img src="img/sysport.jpg" alt="South Yorkshire Sport" /><br/>
+                <img src="img/everyoneswelcome.jpg" alt="Everyone's Welcome" />
                 </p>
 		<p><span>&copy; 2008-2010 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
 		<a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
