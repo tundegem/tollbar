@@ -68,7 +68,7 @@ $CONTENT
                 <img src="img/sysport.jpg" alt="South Yorkshire Sport" />
                 <img src="img/everyoneswelcome.jpg" alt="Everyone's Welcome" />
                 </p>
-		<p><span>&copy; 2008-2010 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
+		<p><span>&copy; 2008-2011 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
 		<a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
 	</div>
 
