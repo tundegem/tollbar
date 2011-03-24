@@ -63,10 +63,12 @@ $CONTENT
                 <img src="img/lg.jpg" alt="Learning gateways" />
                 <img src="img/napta.jpg" alt="National Association of Professional Teaching Assistants" />
                 <img src="img/fmsis.jpg" alt="Financial Management Standards in Schools" />
+                <img src="img/foodforlife.jpg" alt="Food For Life Partnership - Bronze Award" />
                 <br /><a href="http://www.sustrans.org.uk/what-we-do/bike-it"><img src="img/bikeit.jpg" alt="We're a Sustrans Bike It school!" /></a>
                 <img src="img/creativepartnerships.jpg" alt="Creative Partnerships" />
                 <img src="img/sysport.jpg" alt="South Yorkshire Sport" />
                 <img src="img/everyoneswelcome.jpg" alt="Everyone's Welcome" />
+                <img src="img/letsgetcooking.jpg" alt="Let's Get Cooking" />
                 </p>
 		<p><span>&copy; 2008-2011 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
 		<a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
