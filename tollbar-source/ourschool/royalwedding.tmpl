@@ -1,0 +1,17 @@
+LOCATION=ourschool/royalwedding.html
+PARENT=ourschool/index.html
+PAGENAME="Royal Wedding"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+<p style="text-align: center;">Toll Bar Primary School celebrated the Royal Wedding of Prince William and Katherine Middleton with a street party!</p>
+<img src="ourschool/royalwedding/bunting.jpg" alt="" />
+<img src="ourschool/royalwedding/partyfood.jpg" alt="" />
+<img src="ourschool/royalwedding/cake.jpg" alt="" />
+<img src="ourschool/royalwedding/busyparty.jpg" alt="" />
+<img src="ourschool/royalwedding/busyparty2.jpg" alt="" />
+<img src="ourschool/royalwedding/toptable.jpg" alt="" />
+<img src="ourschool/royalwedding/busyparty3.jpg" alt="" />
+<img src="ourschool/royalwedding/busyparty4.jpg" alt="" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
