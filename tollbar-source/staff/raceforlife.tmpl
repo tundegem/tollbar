@@ -1,0 +1,12 @@
+LOCATION=staff/raceforlife.html
+PARENT=staff.html
+PAGENAME="Race for Life"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+<p>Toll Bar staff ran the Race for Life in 2011.</p>
+<img src="staff/raceforlife/raceforlife1.jpg" alt="Toll Bar staff warming up for the Race for Life" />
+<img src="staff/raceforlife/raceforlife2.jpg" alt="Toll Bar staff warming up for the Race for Life" />
+<img src="staff/raceforlife/raceforlife3.jpg" alt="Toll Bar staff warming up for the Race for Life" />
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
