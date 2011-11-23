@@ -40,6 +40,8 @@ $EXTRAHEADER
 `./sitemap.tcl $MAP $LOCATION`
 		</ul>
         <img src="img/butterfly.png" alt="" />
+        <!-- Here's my badge to show support for Toll Bar Primary School. They raise funds with easyfundraising.org.uk -->
+        <a href="http://www.easyfundraising.org.uk/causes/tollbarprimary/?badge=mycause_small-1_572JN5_PD12AS.png&amp;u=PD12AS&amp;urp=PD12AS" class="easyfundraisingBadge"><img src="http://www.easyfundraising.org.uk/images/thanks-for-badging/mycause_small-1_572JN5_PD12AS.png" border="0" alt="School Fundraising Ideas for Toll Bar Primary School"></a>
 	</div>
 
 	<div id="contentwide2">
