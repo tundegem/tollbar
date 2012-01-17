@@ -77,7 +77,7 @@ $CONTENT
                 <img src="img/lppa.jpg" alt="Leading Parent Partnership Award" />
                 <img src="img/nationalcollegeforschoolleadership.jpg" alt="National College for School Leadership" />
                 </p>
-		<p><span>&copy; 2008-2011 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
+		<p><span>&copy; 2008-2012 <a href="http://www.pling.org.uk/">Chris Northwood</a></span><br />
 		<a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
 	</div>
 
