@@ -68,7 +68,7 @@ $CONTENT
                 <img src="img/napta.jpg" alt="National Association of Professional Teaching Assistants" />
                 <img src="img/fmsis.jpg" alt="Financial Management Standards in Schools" />
                 <img src="img/foodforlife.png" alt="Food For Life Partnership - Bronze Award" />
-                <br /><a href="http://www.sustrans.org.uk/what-we-do/bike-it"><img src="img/bikeit.jpg" alt="We're a Sustrans Bike It school!" /></a>
+                <br /><a href="http://www.sustrans.org.uk/what-we-do/bike-it"><img src="img/bikeit.gif" alt="We're a Sustrans Bike It school! | School Mark Bronze 2011/12 | Join the movement" /></a>
                 <img src="img/creativepartnerships.jpg" alt="Creative Partnerships" />
                 <img src="img/sysport.jpg" alt="South Yorkshire Sport" />
                 <img src="img/everyoneswelcome.jpg" alt="Everyone's Welcome" />
