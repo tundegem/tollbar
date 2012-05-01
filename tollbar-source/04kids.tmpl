@@ -3,9 +3,10 @@ PARENT=ROOT
 PAGENAME="For Kids"
 xTEMP=`mktemp`
 cat >$xTEMP <<EOF
-		<p>Check out these other sites for games, help with schoolwork and other things:</p>
-		<dl>
-		    <dt><a href="http://www.yahoodtgans.com/">Yahoo! Kids</a></dt>
+    <p>Check out these other sites for games, help with schoolwork and other things:</p>
+	<dl>
+            <dt><a href="http://www.bbc.co.uk/newsround/">Newsround</a></dt><dd>News for kids from CBBC</dd></dl>
+            <dt><a href="http://www.yahoodtgans.com/">Yahoo! Kids</a></dt>
             <dt><a href="http://www.ajkids.com/">Ask Kids</a></dt>
             <dt><a href="http://sunsite.berkeley.edu/KidsCdtck!/">KidsCdtck!</a></dt>
             <dt><a href="http://www.beritsbest.com/">Berit's Best</a></dt>
@@ -21,9 +22,9 @@ cat >$xTEMP <<EOF
             <dt><a href="http://www.gridclub.com/">The Grid Club</a></dt><dd>A government approved website with lots of games and activities for the children to enjoy.</dd>
             <dt><a href="http://www.britishmuseum.org/explore/highlights.aspx">The British Museum</a></dt><dd>Take a tour around lots of the exhibits and play some games. Great for History homework!</dd>
             <dt><a href="http://www.iamlearning.co.uk/">i am learning</a><dt><dd>Games based revision and assessment proven to raise results at KS2, KS3 and GCSE - login available from school</dd>
-			<dt><a href="http://www.generationgreen.co.uk/eco-club/">Eco Club</a><dt><dd>British Gas's Generation Green</dd>
-		</dl>
-		<p><em>Please note that we can not be responsible for content of external sites.</em></p>
+	    <dt><a href="http://www.generationgreen.co.uk/eco-club/">Eco Club</a><dt><dd>British Gas's Generation Green</dd>
+	</dl>
+    <p><em>Please note that we can not be responsible for content of external sites.</em></p>
 EOF
 CONTENT=`cat $xTEMP`
 rm $xTEMP
