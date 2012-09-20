@@ -1,0 +1,40 @@
+LOCATION=curriculum/phonics.html
+PARENT=curriculum/index.html
+PAGENAME="Phonics"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+<h3>Phonics</h3>
+
+<p>At Toll Bar Primary School, early reading is taught using synthetic phonics as the main
+approach to reading. Pupils are systematically taught the phonemes (sounds), how to blend
+the sounds all through the word for reading, and how to segment the sounds in order to write
+words. They are taught to use their phonic skills and knowledge as their first approach to
+reading, but are also taught high frequency words which do not completely follow the phonic
+rules.</p>
+
+<p>The school follows the government published programme "Letters and Sounds" using a
+variety of resources which helps provide a multi-sensory approach to learning phonics.
+For more information about phonics, including a video of how to pronounce the phonemes
+(sounds), please go to Parents' Information / Parent Guidelines and Information section.
+When at home you can find information <a href="http://www.bbc.co.uk/cbeebies/fun-with-phonics">on the Cbeebies website</a>.</p>
+
+<h3>Reading Schemes</h3>
+
+<p>At Toll Bar Primary School, all our early reading books are colour banded. Your child will
+be given a colour band to choose their home reading book from which will help to ensure
+that the book they select is at about the right reading level for them. Our core scheme is the
+Oxford Reading Tree. The majority of books within the early book bands can be decoded
+using phonics skills and knowledge – encourage your child to use their phonics skills to read
+at home.</p>
+
+<h3>Reading for Pleasure</h3>
+
+<p>At Toll Bar Primary School, we encourage pupils to develop a love of reading and to borrow
+books from our school collection to enjoy with their families. Our staff are very happy
+to speak to parents who want to support their child in widening their reading habits. We
+have reading for pleasure sessions in every class. Each class has a dedicated reading area
+where pupils can read for pleasure. Staff read daily to pupils to increase their pleasure and
+enjoyment of reading.</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
