@@ -1,0 +1,10 @@
+LOCATION=ourschool/events/index.html
+PARENT=ourschool/index.html
+PAGENAME="Events"
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+    <p>Please click the links at the side to see slideshows for events Toll Bar
+    Primary School have attended in the school calendar.</p>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
