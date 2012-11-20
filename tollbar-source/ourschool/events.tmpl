@@ -1,55 +1,10 @@
-LOCATION=ourschool/events/2012.html
-PARENT=ourschool/events/index.html
+LOCATION=ourschool/events/index.html
+PARENT=ourschool/index.html
 PAGENAME="Events"
-xHEADER=`mktmp`
-cat >>$xHEADER <<EOF
-<link rel="stylesheet" href="orbit-1.2.3/orbit-1.2.3.css">
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="orbit-1.2.3/jquery.orbit-1.2.3.js"></script>
-<script type="text/javascript">
-    $(function() {
-        $('#events').orbit();
-    });
-</script>
-EOF
-EXTRAHEADER=`cat $xHEADER`
 xTEMP=`mktemp`
 cat >$xTEMP <<EOF
-<div id="events">
-    <img src="ourschool/events/2012/Slide1.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide2.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide3.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide4.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide5.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide6.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide7.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide8.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide9.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide10.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide11.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide12.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide13.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide14.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide15.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide16.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide17.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide18.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide19.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide20.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide21.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide22.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide23.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide24.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide25.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide26.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide27.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide28.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide29.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide30.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide31.jpg" alt="" />
-    <img src="ourschool/events/2012/Slide32.jpg" alt="" />
-</div>
+    <p>Please click the links at the side to see slideshows for events Toll Bar
+    Primary School have attended in the school calendar.</p>
 EOF
 CONTENT=`cat $xTEMP`
 rm $xTEMP
-rm $xHEADER
