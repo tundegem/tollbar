@@ -1,6 +1,18 @@
 LOCATION=ourschool/events/2012.html
 PARENT=ourschool/events/index.html
 PAGENAME="2012"
+xHEADER=`mktemp`
+cat >>$xHEADER <<EOF
+<link rel="stylesheet" href="orbit-1.2.3/orbit-1.2.3.css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="orbit-1.2.3/jquery.orbit-1.2.3.js"></script>
+<script type="text/javascript">
+    \$(function() {
+        \$('#events').orbit();
+    });
+</script>
+EOF
+EXTRAHEADER=`cat $xHEADER`
 xTEMP=`mktemp`
 cat >$xTEMP <<EOF
 <div id="events">
@@ -37,14 +49,7 @@ cat >$xTEMP <<EOF
     <img src="ourschool/events/2012/Slide31.JPG" alt="" />
     <img src="ourschool/events/2012/Slide32.JPG" alt="" />
 </div>
-<link rel="stylesheet" href="orbit-1.2.3/orbit-1.2.3.css">
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="orbit-1.2.3/jquery.orbit-1.2.3.js"></script>
-<script type="text/javascript">
-    $(function() {
-        $('#events').orbit();
-    });
-</script>
 EOF
 CONTENT=`cat $xTEMP`
 rm $xTEMP
+rm $xHEADER
