@@ -8,14 +8,14 @@
  
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
    ================================================== */
-#featured { 
-	width: 940px;
-	height: 450px;
+#events { 
+	width: 730px;
+	height: 548px;
 	background: #000 url('orbit/loading.gif') no-repeat center center;
 	overflow: hidden; }
-#featured>img,  
-#featured>div,
-#featured>a { display: none; }
+#events>img,  
+#events>div,
+#events>a { display: none; }
 
 
 
