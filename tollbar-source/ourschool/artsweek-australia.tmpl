@@ -1,0 +1,62 @@
+LOCATION=ourschool/artsweek/australia.html
+PARENT=ourschool/index.html
+PAGENAME="Arts Week - Australia"
+xHEADER=`mktemp`
+cat >>$xHEADER <<EOF
+<link rel="stylesheet" href="orbit-1.2.3/orbit-1.2.3.css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="orbit-1.2.3/jquery.orbit-1.2.3.js"></script>
+<script type="text/javascript">
+    \$(function() {
+        \$('#events').orbit();
+    });
+</script>
+EOF
+EXTRAHEADER=`cat $xHEADER`
+xTEMP=`mktemp`
+cat >$xTEMP <<EOF
+<div id="events">
+    <img src="ourschool/events/2012/Slide1.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide2.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide3.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide4.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide5.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide6.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide7.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide8.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide9.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide10.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide11.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide12.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide13.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide14.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide15.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide16.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide17.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide18.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide19.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide20.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide21.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide22.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide23.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide24.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide25.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide26.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide27.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide28.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide29.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide30.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide31.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide32.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide33.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide34.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide35.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide36.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide37.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide38.JPG" alt="" />
+    <img src="ourschool/events/2012/Slide39.JPG" alt="" />
+</div>
+EOF
+CONTENT=`cat $xTEMP`
+rm $xTEMP
+rm $xHEADER
