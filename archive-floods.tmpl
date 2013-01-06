@@ -1,9 +1,0 @@
-LOCATION=floods/index.html
-PARENT=archive/index.html
-PAGENAME="2007 Floods"
-xTEMP=`mktemp`
-cat >$xTEMP <<EOF
-		<iframe src="http://www.flickr.com/slideShow/index.gne?user_id=31854794@N08" border="0" width="750" height="600" frameBorder="0" scrolling="no" background="#fffdd0"></iframe>
-EOF
-CONTENT=`cat $xTEMP`
-rm $xTEMP

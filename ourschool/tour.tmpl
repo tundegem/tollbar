@@ -1,9 +1,0 @@
-LOCATION=ourschool/plan.html
-PARENT=ourschool/index.html
-PAGENAME="School Plan"
-xTEMP=`mktemp`
-cat >$xTEMP <<EOF
-		<img src="ourschool/plan.png" />
-EOF
-CONTENT=`cat $xTEMP`
-rm $xTEMP

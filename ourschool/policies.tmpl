@@ -1,9 +1,0 @@
-LOCATION=ourschool/policies/index.html
-PARENT=ourschool/index.html
-PAGENAME="Policies"
-xTEMP=`mktemp`
-cat >$xTEMP <<EOF
-        <p>This section of the site contains the lists of the school policies as Adobe PDF documents. You can view these documents by downloading and installing <a href="http://get.adobe.com/uk/reader/">Adobe Reader</a>, which may already be installed on your PC.</p>
-EOF
-CONTENT=`cat $xTEMP`
-rm $xTEMP
