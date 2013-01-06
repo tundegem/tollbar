@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <base href="$BASEHREF" />
+    <base href="/" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="andreas01.css" media="screen,projection" />
     <link rel="stylesheet" type="text/css" href="print.css" media="print" />
@@ -16,7 +16,6 @@
         </script>
     {% endif %}
     <title>Toll Bar Primary School - {{ page.title }}</title>
-    <base href="/">
 </head>
 
 <body>
@@ -31,7 +30,7 @@
         <h2 class="hide">Menu:</h2>
 
         <ul class="avmenu">
-            `./sitemap.tcl $MAP $LOCATION`
+           {% nav_tree %}
         </ul>
         <img src="img/butterfly.png" alt="" />
         <!-- Here's my badge to show support for Toll Bar Primary School. They raise funds with easyfundraising.org.uk -->
