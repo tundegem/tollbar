@@ -1,9 +1,17 @@
 module Jekyll
+  class Page
+    def path
+      File.join(@dir, @name).sub(/\A\//, '')
+    end
+  end
+end
+
+module Jekyll
   class NavTreeTag < Liquid::Tag
 
     def render(context)
       @target = context['page']['permalink']
-      build_site_map context.registers[:site].pages
+      build_site_map context.registers[:site].pages.sort { | a, b | a.path <=> b.path }
       render_level('ROOT')
     end
 
