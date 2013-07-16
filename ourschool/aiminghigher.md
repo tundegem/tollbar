@@ -7,6 +7,8 @@ parent: ourschool/index.html
 ![York St John's](/ourschool/yorkstjohns.png)
 
 ![Cameron and Mrs Clarke at the childrens' university presentation](/ourschool/schoolsuniversity.jpg)
+![Children graduating](/ourschool/schoolsuniversity-graduation1.jpg)
+![Children graduating](/ourschool/schoolsuniversity-graduation2.jpg)
 
 We first visited Toll Bar primary on 22nd October 2012. It was a dreary Monday morning, but the group were very energised yet well behaved! They sat and listened to an introduction to who we were, where we were from and also why we were visiting them at school that day. The Yr 5 / 6 group received us well, and were already asking some very valid and well thought out questions, even minutes into the day.
 
